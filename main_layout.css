@@ -88,3 +88,18 @@ li {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+table{
+    border-spacing: 20px;
+}
+th, td{
+    padding: 10px;
+}
+th{
+    width: 50%
+}
+table, th, td{
+    border: 1px solid black;
+}
+tr:nth-child(odd) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
