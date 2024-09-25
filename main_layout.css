@@ -115,3 +115,10 @@ table, th, td{
 .prof-profile th{
     background-color: mediumpurple;
 }
+.about-content h3 {
+    background-color: #3a3dfc;
+    color: white;
+}
+.about-content h4 {
+    background-color: #b4effa;
+}
