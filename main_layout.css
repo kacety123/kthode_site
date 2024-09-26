@@ -105,7 +105,7 @@ table, th, td{
     display: table;
     clear: both;
 }
-.prof-profile th{
+.prof-profile{
     text-align:center;
     background-color: mediumpurple;
 }
