@@ -1,5 +1,5 @@
-body{
-    
+body {
+    background-image: radial-gradient(white, #e9f2f2, #c5dfe6);
 }
 h1{
 
@@ -84,8 +84,8 @@ p1{
     display: block;
 }
 
-.home-table tr:nth-child(odd) {
-    background-color: rgba(150, 212, 212, 0.4);
+.row_odd{
+    border: 1px solid black
 }
 .column {
     float: left;
