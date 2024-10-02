@@ -111,16 +111,16 @@ p1{
     border-spacing: 20px;
     padding: 10px;
 }
-.prof-profile{
-    text-align:center;
-    background-color: mediumpurple;
+.prof-profile {
+    text-align: center;
+    background-color: #b570cf;
 }
 .about-content h3 {
-    background-color: #3a3dfc;
+    background-color: #3861e8;
     color: white;
 }
 .about-content h4 {
-    background-color: #b4effa;
+    background-color: #cce1fc;
 }
 img{
     height:150px;
