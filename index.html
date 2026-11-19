@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kris's Site</title>
     <link rel="stylesheet" href="main_layout.css" />
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,11 +21,11 @@
                     <li><a href="professional.html">Professional Profile</a></li>
                     <li>
                         <div class="dropdown">
-                            <button class="dropbtn">
+                            <button class="dropbtn" type="button" aria-expanded="false" aria-controls="external-links-menu">
                                 External Links
                                 <i class="fa fa-caret-down"></i>
                             </button>
-                            <div class="dropdown-content">
+                            <div class="dropdown-content" id="external-links-menu">
                                 <a href="https://www.linkedin.com/in/krystal-thode">LinkedIn</a>
                                 <a href="https://github.com/kacety123">My Github</a>
                             </div>
@@ -40,9 +43,9 @@
         <div class="row">
             <div class="column">
                 <div class="define-border-home">
-                    <h3 style="background-color: #6acc91 " class="row_odd">What you will find in my website?</h3>
+                    <h3 class="row_odd">What you will find in my website?</h3>
                     <p>An About Me page that goes over who I am as a person; hobbies, interests, etc. Fore warning: There are pictures!!!</p>
-                    <p style="background-color: #defcea " class="row_odd">A Professional Profile page containing my work experience and professional skills! </p>
+                    <p class="row_odd">A Professional Profile page containing my work experience and professional skills! </p>
                     <p>
                         External Links to my LinkedIn profile, and my Github containing my repositories
                         of personal work I have started for practice.
@@ -52,10 +55,10 @@
             </div>
             <div class="column">
                 <div class="define-border-home">
-                    <h3 style="background-color: #87d4a6 " class="row_odd">Where you will find it?</h3>
+                    <h3 class="row_odd">Where you will find it?</h3>
                     <p>Just click <a href="about.html">About Me</a> button on the carefully crafted navbar ;) </p>
-                    <p style="background-color: #defcea " class = "row_odd">Head to the <a href="professional.html">Professional Profile</a> button on the navbar :) </p>
-                    <p>Hover over External Links dropdown and click either option your heart desires!</p>
+                    <p class="row_odd">Head to the <a href="professional.html">Professional Profile</a> button on the navbar :) </p>
+                    <p>Choose External Links in the navbar to visit either profile.</p>
                 </div>
             </div>
         </div>

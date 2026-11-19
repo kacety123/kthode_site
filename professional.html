@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kris's Site</title>
     <link rel="stylesheet" href="main_layout.css" />
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,11 +21,11 @@
                     <li><a href="professional.html">Professional Profile</a></li>
                     <li>
                         <div class="dropdown">
-                            <button class="dropbtn">
+                            <button class="dropbtn" type="button" aria-expanded="false" aria-controls="external-links-menu">
                                 External Links
                                 <i class="fa fa-caret-down"></i>
                             </button>
-                            <div class="dropdown-content">
+                            <div class="dropdown-content" id="external-links-menu">
                                 <a href="https://www.linkedin.com/in/krystal-thode">LinkedIn</a>
                                 <a href="https://github.com/kacety123">My Github</a>
                             </div>
@@ -41,7 +44,7 @@
             <div class="column">
                 <div class="define-border-professional">
                     <h3 class="prof-profile row_odd">Professional Experience</h3>
-                    <h4 style="background-color: #ebcbf7 " class="row_odd">General Motors | Software Engineer | March 2022-Sep 2024</h4>
+                    <h4 class="row_odd">General Motors | Software Engineer | March 2022-Sep 2024</h4>
                     <h5>Developed and maintained predictive inventory tracking application covering all products in North America processing millions of telemetry transactions per day using agile sprints.</h5>
                     <ul>
                         <li>Successfully planned and implemented Java, Maven application design and code integrated with S3 and Postgres with intention to improve functionality and efficiency. </li>
@@ -59,7 +62,7 @@
                     </ul>
                 </div>
                 <div class="define-border-professional">
-                    <h4 style="background-color: #ebcbf7 " class="row_odd">United Wholesale Mortgage (UWM) | Sofware Developer Technical Trainer | June 2020 - March 2022</h4>
+                    <h4 class="row_odd">United Wholesale Mortgage (UWM) | Sofware Developer Technical Trainer | June 2020 - March 2022</h4>
                     <h5>Facilitated classes and exams for a group of learners.</h5>
                     <ul>
                         <li><h5>Role: Technical Trainer</h5></li>

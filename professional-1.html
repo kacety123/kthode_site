@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kris's Site</title>
     <link rel="stylesheet" href="main_layout.css" />
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,11 +21,11 @@
                     <li><a href="professional.html">Professional Profile</a></li>
                     <li>
                         <div class="dropdown">
-                            <button class="dropbtn">
+                            <button class="dropbtn" type="button" aria-expanded="false" aria-controls="external-links-menu">
                                 External Links
                                 <i class="fa fa-caret-down"></i>
                             </button>
-                            <div class="dropdown-content">
+                            <div class="dropdown-content" id="external-links-menu">
                                 <a href="https://www.linkedin.com/in/krystal-thode">LinkedIn</a>
                                 <a href="https://github.com/kacety123">My Github</a>
                             </div>
@@ -44,7 +47,7 @@
             </tr>
             <tr>
                 <td class="prof-profile">
-                    <h4 style="background-color: #e3c9f5">General Motors | Software Developer | March 2022-Sep 2024</h4>
+                    <h4>General Motors | Software Developer | March 2022-Sep 2024</h4>
                     <h5>Duties</h5>
                     <ul>
                         <li>Design, plan, develop, test, deploy, and maintain event-driven application tracking vehicle status and due dates</li>
@@ -118,7 +121,7 @@
             </tr>
             <tr>
                 <td class="prof-profile">
-                    <h4 style="background-color: #e3c9f5 ">United Wholesale Mortgage (UWM) | Sofware Developer Technical Trainer | June 2020 - March 2022</h4>
+                    <h4>United Wholesale Mortgage (UWM) | Sofware Developer Technical Trainer | June 2020 - March 2022</h4>
                     <h5>Duties</h5>
                     <ul>
                         <li>Role: Trainee</li>
