@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.2.0",
+  "generatedAt": "2026-11-19T04:23:19.911Z",
+  "projectInfo": {
+    "currentNodeVersion": {
+      "detected": "v20.17.0",
+      "selected": "20",
+      "versionManager": null
+    },
+    "targetLtsVersion": "24",
+    "packageManager": {
+      "name": "npm",
+      "version": "10.8.2"
+    },
+    "environments": {
+      "developmentOS": [
+        "macOS"
+      ],
+      "productionOS": [
+        "Ubuntu Linux"
+      ],
+      "ciEnvironment": "github"
+    },
+    "hasWorkspaces": false,
+    "monorepoTools": []
+  },
+  "scannedData": {
+    "packageJson": {
+      "content": {
+        "name": "active_site_kacety123.io",
+        "version": "1.0.0",
+        "main": "index.js",
+        "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "keywords": [],
+        "author": "",
+        "license": "ISC",
+        "description": ""
+      },
+      "isTruncated": false
+    },
+    "allPackageJsons": [],
+    "lockfile": {
+      "name": "none",
+      "content": null,
+      "isTruncated": false
+    },
+    "lockfilesDetected": [],
+    "ciConfigsFound": [],
+    "cppAddons": {
+      "gypFilesFound": [],
+      "cmakeListsFound": [],
+      "dependenciesFound": []
+    },
+    "monorepoConfigs": []
+  },
+  "staticApiAnalysis": {
+    "status": "success",
+    "error": null,
+    "findings": []
+  },
+  "warnings": [
+    "No lockfile found. Proceeding without lockfile data."
+  ],
+  "additionalNotes": ""
+}
